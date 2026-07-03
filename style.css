@@ -680,6 +680,11 @@ html.intro-lock body {
   .countdown__unit { min-width: 52px; padding: 10px 6px; }
   .countdown__unit span { font-size: 22px; }
   .countdown__sep { display: none; }
+  .lead {
+    font-size: clamp(30px, 8vw, 40px);
+    white-space: normal;
+    line-height: 1.15;
+  }
 }
 @media (max-width: 720px) and (hover: hover) {
   .nav__links.is-open a:not(.nav__cta):hover { opacity: 1; color: var(--olive); }
