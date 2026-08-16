@@ -62,12 +62,12 @@ a { color: inherit; text-decoration: none; }
 
 .lead {
   font-family: var(--font-script);
-  font-size: clamp(18px, 4.5vw, 56px);
+  font-size: clamp(28px, 7vw, 56px);
   color: rgb(187, 221, 255);
   text-align: center;
   margin: 0 auto 44px;
   padding: 0 24px;
-  white-space: nowrap;
+  line-height: 1.15;
 }
 
 /* reveal-on-scroll */
